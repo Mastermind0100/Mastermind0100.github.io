@@ -82,6 +82,7 @@
     $(".testimonials-carousel").owlCarousel({
         center: true,
         autoplay: true,
+        autoplayTimeout: 10000,
         dots: true,
         loop: true,
         responsive: {
